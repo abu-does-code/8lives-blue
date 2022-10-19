@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/media-queries.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bg.css/bg.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.8.0/web3.min.js" integrity="sha512-bSQ2kf76XufUYS/4XinoHLp5S4lNOyRv0/x5UJACiOMy8ueqTNwRFfUZWmWpwnczjRp9SjiF1jrXbGEim7Y0Xg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>	<script src="assets/js/web3.js"></script>
 	<script src="assets/js/main.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
@@ -13,6 +14,19 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
+	<!-- ---shapes--- -->
+	<ul class='circles'>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
 	<!-- Navigation Bar -->
 	<div id="nav-bar">
 		<div id="nav-bar-wrapper">
@@ -38,7 +52,7 @@
 		<!-- Page Header -->
 		<div id="page-header">
 			<div id="page-title">
-				Home
+				
 			</div>
 			<div id="page-back">
 				Back
@@ -107,5 +121,12 @@
 		<div id="content-box">
 		</div>
 	</div>
+	<script>
+		jQuery(document).ready(function () {
+			jQuery(".container-wrap").append(
+				"<ul class='circles'><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li></ul>"
+			);
+		}); 
+	</script>
 </body>
 </html>
